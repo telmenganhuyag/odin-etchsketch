@@ -1,6 +1,6 @@
 const buttons = document.createElement("div");
 buttons.setAttribute(
-    "style", "display: flex; justify-content: center; padding: 20px; ; gap: 10px;"
+    "style", "display: flex; justify-content: center; padding: 10px; ; gap: 10px;"
 )
 document.body.appendChild(buttons);
 
@@ -25,7 +25,7 @@ page.appendChild(nina)
 
 const container = document.createElement("div");
 container.setAttribute( 
-    "style", "border: 1px solid pink; width: 800px; height: 800px; display:flex; flex-wrap: wrap;"
+    "style", `border: 1px solid pink; width: 800px; height: 800px; display:flex; flex-wrap: wrap;`
 )
 container.classList.add("container");
 page.appendChild(container);
@@ -34,7 +34,7 @@ const nina2 = document.createElement("img")
 nina2.src = "https://i.imgur.com/CicwMk5.jpeg";
 page.appendChild(nina2)
 
-let boardSize = 800
+let boardSize = 800;
 
 function getRandomColor() {
     let letters = '0123456789ABCDEF';
